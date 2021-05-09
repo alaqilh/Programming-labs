@@ -1,0 +1,13 @@
+3.	Modify the program to use a "while-do" loop instead of "for" loop.
+            int sum = 0;
+            int number = lowerbound;       
+            while (number <= upperbound) 
+      {  
+                   sum += number;
+                  ++number;                    
+      }
+Answer:
+int sum = 0 ;
+for ( int number = lowerbound ; number <= upperbound ; ++number ){
+sum += number;
+}
